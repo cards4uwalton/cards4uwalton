@@ -340,6 +340,13 @@ html[xmlns] .slides {display: block;}
 	font-size: 14px !important;
 }
 
+.hero-unit h1 {
+	font-size: 32px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+
 /* Icon Boxes
 =================================================================== */
 .icons-box-container {
@@ -369,7 +376,7 @@ html[xmlns] .slides {display: block;}
 }
 
 .icons-box p {
-	
+	font-size: 15px;
 }
 
 .icons-box i {
