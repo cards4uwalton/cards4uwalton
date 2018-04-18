@@ -94,6 +94,27 @@ header {
 	margin-top:25px;
 }
 
+a.openingtimes,
+a.openingtimes:link,
+a.openingtimes:active,
+a.openingtimes:visited {
+	background: #3b5197;
+	border-radius: 4px;
+	color: #fff;
+	display: block;
+	font-size: 14px;
+	margin: 10px auto;
+	max-width: 240px;
+	padding: 8px;
+	text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+	.openingtimes {
+		display: none !important;
+	}
+}
+
 #social-links {
 	margin-top:20px;
 	float: right;
@@ -203,6 +224,7 @@ html[xmlns] .slides {display: block;}
 .flexslider {
 	background: #fff;
 	zoom: 1;
+	margin-bottom: 40px;
 }
 
 .ie7 .flexslider {margin-bottom: -30px;}
@@ -331,14 +353,33 @@ html[xmlns] .slides {display: block;}
 ====================================================================== */
 
 .hero-unit {
-	padding: 13px 13px 13px 15px;
+	margin: 20px 0 0;
 	font-style: normal;
-	margin: 20px 20px 0px 20px;
+	padding: 20px 20px 0px 20px;
 	-webkit-border-radius: 0px;
      -moz-border-radius: 0px;
           border-radius: 0px;
 	font-size: 14px !important;
 }
+
+.hero-unit h1 {
+	font-size: 32px;
+	margin-bottom: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+	.shopfront {
+		padding-bottom: 20px;
+	}
+}
+
+.shopfront img {
+	box-shadow: 0 0 8px rgba(0, 0, 0, .4);
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
+
 
 /* Icon Boxes
 =================================================================== */
@@ -369,7 +410,7 @@ html[xmlns] .slides {display: block;}
 }
 
 .icons-box p {
-	
+	font-size: 15px;
 }
 
 .icons-box i {
@@ -1149,7 +1190,6 @@ form#newsletter input[type=submit] {
 
 #copyright p {
 	margin: 0 auto;
-	width: 380px;
 	text-align: center;
 	color: #666;
 }
